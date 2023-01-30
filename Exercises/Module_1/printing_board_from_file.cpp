@@ -50,6 +50,7 @@ vector<vector<State>> ReadBoardFile(string filepath) {
 
 int main()
 {
+    /*
     vector<vector<int>> board {{0, 1, 0, 0, 0, 0},
                             {0, 1, 0, 0, 0, 0},
                             {0, 1, 0, 0, 0, 0},
@@ -66,6 +67,8 @@ int main()
         cout << endl;
     }
 
+    */
+   
     cout << "Reading board from file " << endl;
     // Reading the Board from a File
     vector<vector<State>> boardFromFile = ReadBoardFile("1.board");
